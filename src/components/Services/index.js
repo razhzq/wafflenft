@@ -7,25 +7,27 @@ import {
         ServicesH2,
         ServicesP
 } from './ServicesElements'
-import Icon1 from '../../images/digitalart.svg'
-import Icon2 from '../../images/audionft.svg'
-
+import Icon1 from '../../images/waffleberry.png'
+import Icon2 from '../../images/waffle2.png'
+import Icon3 from '../../images/waffle3.png'
 
 
 const Services = () => {
     return ( 
-        <ServicesContainer id="services">
-            <ServicesH1>PasarSeni MarketPlace</ServicesH1>
+        <ServicesContainer id="gallery">
+            <ServicesH1>NFTs Gallery</ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>
                     <ServicesIcon src={Icon1} />
-                    <ServicesH2>Digital Art NFT</ServicesH2>
-                    <ServicesP>Discover amazing arts from different cultures and communities. </ServicesP>
+                    
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={Icon2} />
-                    <ServicesH2>Audio NFT</ServicesH2>
-                    <ServicesP>We support musicians and artists that want to NFT's their music collection.</ServicesP>
+                   
+                </ServicesCard>
+                <ServicesCard>
+                    <ServicesIcon src={Icon3} />
+                   
                 </ServicesCard>
             </ServicesWrapper>
         </ServicesContainer>

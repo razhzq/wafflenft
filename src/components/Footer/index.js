@@ -1,4 +1,4 @@
-import { FaFacebook, FaInstagram, FaYoutube, FaTwitter,  FaLinkedin } from 'react-icons/fa'
+import { FaInstagram,  FaTwitter,  FaDiscord, FaTelegram } from 'react-icons/fa'
 import { animateScroll as scroll } from 'react-scroll';
 import { FooterContainer,
          FooterWrap,
@@ -66,24 +66,21 @@ const Footer = () => {
                    <SocialMedia>
                        <SocialMediaWrap>
                            <SocialLogo to="/" onClick={toggleHome}>
-                               pasarseni
+                               WaffleNFT
                            </SocialLogo>
-                           <WebsiteRights>pasarseni © {new Date().getFullYear()} All rights reserved</WebsiteRights>
+                           <WebsiteRights>WaffleNFT © {new Date().getFullYear()} All rights reserved</WebsiteRights>
                            <SocialIcons>
-                               <SocialIconLink href="" target="_blank" aria-label="Facebook">
-                                   <FaFacebook />
-                               </SocialIconLink>
                                <SocialIconLink href="" target="_blank" aria-label="Instagram">
                                    <FaInstagram />
                                </SocialIconLink>
-                               <SocialIconLink href="" target="_blank" aria-label="Youtube">
-                                   <FaYoutube />
+                               <SocialIconLink href="https://discord.gg/QJak8xza" target="_blank" aria-label="Discord">
+                                   <FaDiscord />
                                </SocialIconLink>
-                               <SocialIconLink href="" target="_blank" aria-label="Twitter">
+                               <SocialIconLink href="https://twitter.com/WaffleNft" target="_blank" aria-label="Twitter">
                                    <FaTwitter />
                                </SocialIconLink>
-                               <SocialIconLink href="" target="_blank" aria-label="LinkedIn">
-                                   <FaLinkedin />
+                               <SocialIconLink href="https://t.me/WaffleNFT" target="_blank" aria-label="Telegram">
+                                   <FaTelegram />
                                </SocialIconLink>
                            </SocialIcons>
                        </SocialMediaWrap>

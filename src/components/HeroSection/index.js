@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroElements'
-import Video from '../../videos/arts.mp4'
+import Video from '../../videos/waffleinto.mp4'
 import { Button } from '../ButtonElement'
 
 
@@ -19,9 +19,11 @@ const HeroSection = () => {
                  <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
              </HeroBg>
              <HeroContent>
-                 <HeroH1>Discover, Sell and Collect</HeroH1>
+                 <HeroH1>Revolutionising NFTs</HeroH1>
                  <HeroP>
-                     We houses NFT marketplace and one of few breedable NFT's, CryptoSim. Signup to create you own NFT Sim. 
+                 With the great designs and amazing community at our heart, our main goal is to bring utility to our holders. 
+
+
                  </HeroP>
                  <HeroBtnWrapper>
                      <Button to="signup" onMouseEnter={onHover} 
@@ -35,7 +37,7 @@ const HeroSection = () => {
                                          offset={-80}
                                       
                                          >
-                         Coming Soon {hover ? <ArrowForward /> : <ArrowRight />}
+                         Download Whitepaper {hover ? <ArrowForward /> : <ArrowRight />}
                      </Button>
                  </HeroBtnWrapper>
              </HeroContent>

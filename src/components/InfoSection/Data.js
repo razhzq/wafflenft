@@ -3,17 +3,17 @@ export const homeObjOne = {
     lightBg: false,
     lightText: true,
     lightTextDesc : true,
-    topLine: 'PasarSeni Token',
-    headLine: 'Unlimited Transaction with low gas fees',
-    description: 'Our native currency are PasarSeni Token (PST) built on top of Polygon framework, offering competitively low gas fees.',
-    buttonLabel: 'View Contract Token',
+    topLine: 'WaffleNFT',
+    headLine: '5000 Unique Collection of Scrumptious Waffles',
+    description: 'Our NFTs will be used uniquely as a Raffle Ticket. Every day after minting has closed we will host a raffle!  ',
+    buttonLabel: 'Join our Discord',
     imgStart: false,
-    img: require('../../images/logopasar.png').default,
+    img: require('../../images/waffleberry.png').default,
     alt: 'Car',
     dark: true,
     primary: true,
     darkText: false,
-    buttonTo: 'https://www.bing.com/search?q=button+path&cvid=d09a583f845445ac919daef88f860d6e&aqs=edge..69i57j0l8.3504j0j4&FORM=ANAB01&PC=U531',
+    buttonTo: 'https://discord.gg/QJak8xza',
 }
 
 

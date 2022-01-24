@@ -1,0 +1,266 @@
+.accordion-section {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+  }
+  
+  .accordion-title {
+    background-color: rgb(71, 68, 68);
+    color: #444;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 450px;
+    margin-right: 450px;
+    text-align: center;
+    transition: background-color 0.6s ease;
+    width: 1000px;
+  }
+
+.load-map-phase button.accordion-title {
+  width: 90%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.load-map-phase button.accordion-title > span {
+  padding-left: 0;
+}
+.load-map-phase .phase-1, .load-map-phase .phase-2, .load-map-phase .phase-3 {
+  width: calc(100% - 80px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.mt-3 {
+  margin-top: 1rem;
+}
+.load-map-phase .accordion-content {
+  /* max-height: unset !important; */
+}
+.load-map-phase .accordin-contents {
+  width: 90%;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+  @media screen and (max-width: 1600px) {
+    .accordion-title {
+      margin-left: 300px;
+      margin-right: 0px;
+      max-width: 800px;
+    }
+	}
+
+  @media screen and (max-width: 992px) {
+    .accordion-title {
+      margin-left: 0px;
+      margin-right: 0px;
+
+    }
+	}
+  
+  .accordion-title:hover,
+  .active {
+    
+  }
+  
+  .accordion-icon {
+    color: black;
+    font-size:40px;
+    margin-left: auto;
+    transition: transform 0.6s ease;
+  }
+  
+  .rotate {
+    transform: rotate(90deg);
+  }
+  
+  .accordion-content {
+    background-color: transparent;
+    overflow: hidden;
+    transition: max-height 2.8s ease;
+  }
+  
+  .accordion-text {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 18px;
+  }
+
+  .pre-phase{
+    background-color: transparent;
+    color: #fff;
+    font-size: 15px;
+    display: block;
+
+    
+    
+  }
+  @media screen and (max-width: 1600px) {
+    .pre-phase  {
+      font-size: 20px;
+      width: 400px;
+    }
+	}
+
+  @media screen and (max-width: 992px) {
+    .pre-phase  {
+      font-size: 20px;
+      width: 400px;
+    }
+	}
+
+ 
+  
+  .pre-phase >h1{
+    color: #eccb75; 
+    padding-bottom: 20px;
+    
+   
+  }
+  .pre-phase >p{
+    padding-top: 5px;
+   
+    font-size: 18px;
+    
+  }
+
+  @media screen and (max-width: 992px) {
+    .pre-phase >h1 {
+      font-size: 20px;
+      max-width: 400px;
+    }
+	}
+
+  .accordion-title >span{
+    padding-top: 5px;
+    font-family: 'NexaLight';
+    font-size: 59px;
+    align-items: right;
+    padding-left: 300px;
+    color: #000;
+    
+  }
+  
+  .phase-1 {
+    background-color: rgba(20, 20, 20, 0.2);
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    transition: max-height 0.6s ease;
+    width: 920px;
+    margin-left: 450px;
+    margin-right: 450px;
+    text-align: left;
+  }
+
+  @media screen and (max-width: 1600px) {
+    .phase-1 {
+      margin-left: 300px;
+      margin-right: 0px;
+    }
+	}
+
+  @media screen and (max-width: 992px) {
+    .phase-1 {
+      margin-left: 0px;
+      margin-right: 0px;
+      font-size: 10px;
+    }
+	}
+
+  .phase-1 >h1{
+    color: rgb(252, 252, 134); 
+    padding-bottom: 20px;
+    
+  }
+
+  .phase-1 >p{
+    padding-top: 5px;
+  
+    font-size: 21px;
+    
+  }
+
+  
+  
+  .phase-2 {
+    background-color: rgba(20, 20, 20, 0.2);
+    color: rgba(253, 253, 253, 0.342);
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 50px;
+    transition: max-height 1.6s ease;
+    width: 920px;
+    margin-left: 450px;
+    margin-right: 450px;
+    text-align: left;
+  }
+
+  @media screen and (max-width: 1600px) {
+    .phase-2 {
+      margin-left: 300px;
+      margin-right: 0px;
+    }
+	}
+
+  @media screen and (max-width: 992px) {
+    .phase-2 {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+	}
+
+
+  .phase-2 >p{
+    padding-top: 5px;
+ 
+    font-size: 21px;
+    
+  }
+  
+  .phase-3 {
+    background-color: rgba(20, 20, 20, 0.2);
+    color: rgba(253, 253, 253, 0.342);
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 50px;
+    transition: max-height 0.6s ease;
+    width: 920px;
+    margin-left: 450px;
+    margin-right: 450px;
+    text-align: left;
+  }
+
+  @media screen and (max-width: 1600px) {
+    .phase-3 {
+      margin-left: 300px;
+      margin-right: 0px;
+    }
+	}
+
+  @media screen and (max-width: 992px) {
+    .phase-3 {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+	}
+
+
+  .phase-3 >p{
+    padding-top: 5px;
+    
+    font-size: 21px;
+    
+  }
+	
+  

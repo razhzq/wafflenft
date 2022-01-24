@@ -8,6 +8,8 @@ import Services from "../components/Services";
 import Footer from "../components/Footer";
 import CryptoSim from "../components/CryptoSim";
 import { cryptoData } from "../components/CryptoSim/Data";
+import RoadmapPhase from "../components/Roadmap";
+import SliderSection from "../components/Slider";
 
 
 const Home = () => {
@@ -24,10 +26,10 @@ const Home = () => {
            <Navbar toggle={toggle} />
            <HeroSection />
            <InfoSection {...homeObjOne} />
+           <RoadmapPhase />
            <Services />
-           <CryptoSim {...cryptoData} />
            <Footer />
-          
+           
         </>
      );
 }

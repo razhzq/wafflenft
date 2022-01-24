@@ -36,7 +36,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headLine, darkT
                                  <Heading lightText={lightText}>{ headLine }</Heading>
                                  <Subtitle darkText={darkText}>{ description }</Subtitle>
                                  <BtnWrap>
-                                     <Button onClick={() => window.location.href = "https://polygonscan.com/token/0x71d4ca971945ceb01e7abce3c2fa78e6619572cb"}
+                                     <Button onClick={() => window.location.href = buttonTo}
                                              smooth={true}
                                              duration={500}
                                              spy={true}
