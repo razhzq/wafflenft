@@ -35,9 +35,11 @@ const Accordion = props => {
       <button className="accordion-title" onClick={() => toogleActive('pre-phase')} key={'pre-phase'}>
         <div className="pre-phase">
           <h1>PHASE 1</h1>
-          <p>-Upon reaching 3000 discord members, a date will be set for bot Presale & Main Launch</p>
+          <p>-Upon reaching 3000 discord members, a date will be set for both Presale & Main Launch</p>
           <p>-500 NFTs will be allocated to Presale(the funds accumulated from the presale will help push the community marketing towards our main launch)</p>
           <p>-250 NFTs will be allocated to Giveaways & Contests</p>
+          <p>-The remaining 4,250 Waffle NFTs will be release to public mint. </p>
+          <p>- Daily raffle deployment upon closing of public sale </p>
         </div>
         <span>{clicked === 'pre-phase' ? <FiMinus /> : <FiPlus />}</span>
 

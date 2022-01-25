@@ -8,21 +8,23 @@ const RoadmapPhase = () => {
         <div className="accordin-contents mt-3">
           <div className="phase-1">
             <h1>PHASE 2 </h1>
-            <p>-The remaining 4,250 Waffle NFTs will be release to public mint, Each NFT corresponds to a number between 1-4000 which acts as a ticket for upcoming raffle</p>
+            <p>- Applications for secondary markets will be placed. Members can trade numbers, accumulate more waffle tickets or simply collect different designs</p>
+            <p>- Our website will be fully updated to bring the latest and best tools to bring ease to our community and holders </p>
+            <p>- Weekly Raffle NFTs will be created and put up for public sale</p>
           </div>
         
           <div className="phase-2">
             <h1>PHASE 3</h1>
-            <p>
-              -Applications for secondary markets will be placed.  Members can trade numbers, accumulate more waffle tickets or simply collect different designs
-
-            </p>
+            <p>- Community voting will commence for WaffleCasino games </p>
+            <p>- WaffleNFT Merchandise Shop will be open on our website </p>
+            <p>- Monthly Raffle NFTs will be created and put up for public sale</p>
           
           </div>
 
           <div className="phase-3">
             <h1>PHASE 4</h1>
-            <p>- A further 2,000 Waffle NFTs will be launched, this second batch of NFTs will be used for our weekly raffles which will be 7x higher value and potentially life changing amounts to be won. </p>
+            <p>- WaffleCasino Launch</p>
+            <p>- Roadmap 2023 Update </p>
          
           </div>
           

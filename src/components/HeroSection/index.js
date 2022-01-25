@@ -21,7 +21,10 @@ const HeroSection = () => {
              <HeroContent>
                  <HeroH1>Revolutionising NFTs</HeroH1>
                  <HeroP>
-                 With the great designs and amazing community at our heart, our main goal is to bring utility to our holders. 
+                 Community will always be at our heart here at WaffleNFT.{"\n"}
+                 Our main goal is and always has been bringing REAL utility to our holders.{"\n"}
+                
+
 
 
                  </HeroP>
