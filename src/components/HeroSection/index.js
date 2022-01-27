@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroElements'
-import Video from '../../videos/waffleinto.mp4'
+import Video from '../../images/background.png'
 import { Button } from '../ButtonElement'
 
 
