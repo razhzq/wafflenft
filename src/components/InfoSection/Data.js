@@ -13,7 +13,7 @@ export const homeObjOne = {
     dark: true,
     primary: true,
     darkText: false,
-    buttonTo: 'https://discord.gg/QJak8xza',
+    buttonTo: 'https://discord.gg/96QBSE4j59',
 }
 
 

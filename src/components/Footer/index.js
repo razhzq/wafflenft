@@ -73,7 +73,7 @@ const Footer = () => {
                                <SocialIconLink href="" target="_blank" aria-label="Instagram">
                                    <FaInstagram />
                                </SocialIconLink>
-                               <SocialIconLink href="https://discord.gg/QJak8xza" target="_blank" aria-label="Discord">
+                               <SocialIconLink href="https://discord.gg/96QBSE4j59" target="_blank" aria-label="Discord">
                                    <FaDiscord />
                                </SocialIconLink>
                                <SocialIconLink href="https://twitter.com/WaffleNft" target="_blank" aria-label="Twitter">
