@@ -32,13 +32,14 @@ export const HeroContainer = styled.div`
 		padding-top: 150px;
 		padding-bottom: 100px;
 		:after {
-			width: 230px;
-			height: 230px;
+			width: 200px;
+			height: 200px;
 			background-size: 100% 100%;
 		}
 		:before {
-			width: 150px;
-			height: 210px;
+			width: 100px;
+			height: 130px;
+			bottom: -40px;
 			background-size: 100% 100%;
 		}
 	}
