@@ -14,24 +14,23 @@ import SliderSection from "../components/Slider";
 
 const Home = () => {
 
-    const [isOpen, setIsOpen] = useState(false);
+	const [isOpen, setIsOpen] = useState(false);
 
-    const toggle = () => {
-        setIsOpen(!isOpen)
-    }
+	const toggle = () => {
+		setIsOpen(!isOpen)
+	}
 
-    return ( 
-        <>
-           <Sidebar isOpen={isOpen} toggle={toggle} />
-           <Navbar toggle={toggle} />
-           <HeroSection />
-           <InfoSection {...homeObjOne} />
-           <RoadmapPhase />
-           <Services />
-           <Footer />
-           
-        </>
-     );
+	return (
+		<>
+			<Sidebar isOpen={isOpen} toggle={toggle} />
+			<Navbar toggle={toggle} />
+			<HeroSection />
+			<InfoSection {...homeObjOne} />
+			<RoadmapPhase />
+			<Services />
+			<Footer />
+		</>
+	);
 }
- 
+
 export default Home;
