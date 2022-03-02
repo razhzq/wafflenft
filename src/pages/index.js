@@ -6,11 +6,7 @@ import InfoSection from "../components/InfoSection";
 import { homeObjOne } from "../components/InfoSection/Data";
 import Services from "../components/Services";
 import Footer from "../components/Footer";
-import CryptoSim from "../components/CryptoSim";
-import { cryptoData } from "../components/CryptoSim/Data";
 import RoadmapPhase from "../components/Roadmap";
-import SliderSection from "../components/Slider";
-
 
 const Home = () => {
 
