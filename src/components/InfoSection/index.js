@@ -3,14 +3,11 @@ import {
 	InfoWrapper,
 	InfoRow,
 	Column1,
-	Column2,
-	TextWrapper,
+	Column2,	
 	TopLine,
 	Heading,
 	Subtitle,
-	BtnWrap,
-	ImgWrap,
-	Img
+	BtnWrap	
 } from './InfoElements'
 
 import { Button } from '../ButtonElement';
