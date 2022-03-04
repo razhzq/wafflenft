@@ -1,0 +1,102 @@
+.position-relative {
+  position: relative;
+}
+.phase-1 {
+  width: 35.2vw;
+  position: absolute;
+  top: 0;
+  right: 9.3vw;
+}
+.road-line-1 {
+  position: absolute;
+  left: -129px;
+  width: 90px;
+  height: 111px;
+  top: 63px;
+}
+.phase-1-waffle {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  left: -180px;
+  top: 176px;
+}
+.phase-2 {
+  width: 18.68vw;
+  position: absolute;
+  top: 155px;
+  left: 5.2vw;
+}
+.road-line-2 {
+  position: absolute;
+  right: -122px;
+  width: 223px;
+  height: 207px;
+  top: 28px;
+}
+.phase-2-waffle {
+  width: 141px;
+  height: 141px;
+  position: absolute;
+  right: -194px;
+  top: 222px;
+}
+.phase-3 {
+  text-align: right;
+  width: 26.8vw;
+  position: absolute;
+  top: 362px;
+  right: 3.8vw;
+}
+.phase-3 p {
+  margin-right: 38px;
+}
+.road-line-3 {
+  position: absolute;
+  right: 17px;
+  width: 205px;
+  height: 309px;
+  top: 56px;
+}
+.phase-3-waffle {
+  width: 210px;
+  height: 210px;
+  right: 183px;
+  position: absolute;
+  top: 272px;
+}
+.phase-4 {
+  width: 18vw;
+  position: absolute;
+  top: 680px;
+  left: 5.3vw;
+}
+.road-line-4 {
+  position: absolute;
+  width: 223px;
+  height: 207px;
+  top: 30px;
+  right: -132px;
+}
+.phase-4-waffle  {
+  width: 296px;
+  height: 296px;
+  right: -265px;
+  position: absolute;
+  top: 77px;
+}
+@media screen and (max-width: 991px) {
+  .phase-1, .phase-2, .phase-3, .phase-4 {
+    position: unset;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: left !important;
+  }
+  .road-line-1, .road-line-2, .road-line-3, .road-line-4,
+  .phase-1-waffle, .phase-2-waffle, .phase-3-waffle, .phase-4-waffle {
+    display: none;
+  }
+  .phase-3 p {
+    margin-right: 0;
+  }
+}

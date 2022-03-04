@@ -31,6 +31,7 @@ export const InfoContainer = styled.div`
 		background-size: 100% 100%;
 		bottom: -288px;
 		right: 0;		
+		z-index: 2;
 	}
 	@media screen and (max-width: 1200px) {
 		padding: 250px 0 150px;
