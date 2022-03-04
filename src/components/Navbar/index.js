@@ -7,12 +7,15 @@ import {
 	NavItem,
 	NavLinks,
 	NavBtn,
-	NavBtnLink
+	NavBtnLink,
+	NavLogoImg
 } from './NavbarElements'
 import { FaBars } from 'react-icons/fa'
 import { useState, useEffect } from 'react';
 import { IconContext } from 'react-icons/lib'
 import { animateScroll as scroll } from 'react-scroll';
+
+import Logo from 'images/nav-logo.png'
 
 const Navbar = ({ toggle }) => {
 
@@ -39,7 +42,9 @@ const Navbar = ({ toggle }) => {
 			<IconContext.Provider value={{ color: '#fff' }}>
 				<Nav scrollNav={scrollNav}>
 					<NavbarContainer>
-						<NavLogo to="/" onClick={toggleHome}>WaffleNFT</NavLogo>
+						<NavLogo to="/" onClick={toggleHome}>
+							<NavLogoImg src={Logo} alt='logo' />
+						</NavLogo>
 						<MobileIcon onClick={toggle}>
 							<FaBars />
 						</MobileIcon>
@@ -50,7 +55,7 @@ const Navbar = ({ toggle }) => {
 									duration={500}
 									spy={true}
 									exact='true'
-									offset={-80}
+									offset={-105}
 								>
 									About Us
 								</NavLinks>
@@ -61,7 +66,7 @@ const Navbar = ({ toggle }) => {
 									duration={500}
 									spy={true}
 									exact='true'
-									offset={-80}
+									offset={-105}
 								>
 									Roadmap
 								</NavLinks>
@@ -72,7 +77,7 @@ const Navbar = ({ toggle }) => {
 									duration={500}
 									spy={true}
 									exact='true'
-									offset={-80}
+									offset={-105}
 								>
 									Team
 								</NavLinks>
@@ -83,7 +88,7 @@ const Navbar = ({ toggle }) => {
 									duration={500}
 									spy={true}
 									exact='true'
-									offset={-80}
+									offset={-105}
 								>
 									FAQs
 								</NavLinks>
