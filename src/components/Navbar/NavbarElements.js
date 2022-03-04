@@ -5,7 +5,7 @@ import { Link as LinkS } from 'react-scroll'
 import BtnBg from 'images/mint-btn.png'
 
 export const Nav = styled.nav`
-	background: ${({ scrollNav }) => (scrollNav ? '#FEC393' : 'transparent')};
+	background: ${({ scrollNav }) => (scrollNav ? '#000' : 'transparent')};
 	height: 105px;
 	margin-top: -105px;
 	padding-top: 25px;
@@ -70,7 +70,7 @@ export const NavItem = styled.li`
 `
 
 export const NavLinks = styled(LinkS)`
-	color: #15131C;
+	color: ${({scrollNav}) => (scrollNav ? '#fff' : '#15131C')};
 	display: flex;
 	align-items: center;
 	text-decoration: none;
@@ -94,10 +94,10 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
 	border-radius: 9px;
-	background: 	#140634;
+	background: ${({scrollNav}) => (scrollNav ? '#fff' : '#140634')};
 	white-space: nowrap;
 	padding: 10px 40px;
-	color: white;
+	color: ${({scrollNav}) => (scrollNav ? '#15131C' : 'white')};
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 30px;

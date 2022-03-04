@@ -16,6 +16,7 @@ import { IconContext } from 'react-icons/lib'
 import { animateScroll as scroll } from 'react-scroll';
 
 import Logo from 'images/nav-logo.png'
+import WhiteLogo from 'images/white-logo.png'
 
 const Navbar = ({ toggle }) => {
 
@@ -43,7 +44,9 @@ const Navbar = ({ toggle }) => {
 				<Nav scrollNav={scrollNav}>
 					<NavbarContainer>
 						<NavLogo to="/" onClick={toggleHome}>
-							<NavLogoImg src={Logo} alt='logo' />
+							{
+								scrollNav ? <NavLogoImg src={WhiteLogo} alt='logo' /> : <NavLogoImg src={Logo} alt='logo' />
+							}							
 						</NavLogo>
 						<MobileIcon onClick={toggle}>
 							<FaBars />
@@ -56,6 +59,7 @@ const Navbar = ({ toggle }) => {
 									spy={true}
 									exact='true'
 									offset={-105}
+									scrollNav={scrollNav}
 								>
 									About Us
 								</NavLinks>
@@ -67,6 +71,7 @@ const Navbar = ({ toggle }) => {
 									spy={true}
 									exact='true'
 									offset={-105}
+									scrollNav={scrollNav}
 								>
 									Roadmap
 								</NavLinks>
@@ -78,6 +83,7 @@ const Navbar = ({ toggle }) => {
 									spy={true}
 									exact='true'
 									offset={-105}
+									scrollNav={scrollNav}
 								>
 									Team
 								</NavLinks>
@@ -89,13 +95,14 @@ const Navbar = ({ toggle }) => {
 									spy={true}
 									exact='true'
 									offset={-105}
+									scrollNav={scrollNav}
 								>
 									FAQs
 								</NavLinks>
 							</NavItem>
 						</NavMenu>
 						<NavBtn>
-							<NavBtnLink to="">Mint: TBD</NavBtnLink>
+							<NavBtnLink to="" scrollNav={scrollNav}>Mint: TBD</NavBtnLink>
 						</NavBtn>
 					</NavbarContainer>
 				</Nav>
