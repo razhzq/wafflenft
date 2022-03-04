@@ -1,0 +1,86 @@
+.mr-0 {
+  margin-right: 0 !important;
+}
+.team-item {
+  
+}
+.top-line-item {
+  margin-bottom: 60px;
+}
+.waf::before {
+  position: absolute;
+  content: '';
+  width: 4px;
+  height: 50px;
+  background-color: white;
+  top: -50px;
+  left: 50%;  
+}
+.waf::after {
+  position: absolute;
+  content: '';
+  width: 4px;
+  height: 100px;
+  background-color: white;
+  bottom: -100px;
+  left: 50%;  
+}
+.line-1 {
+  position: absolute;
+  top: 120px;
+  width: 177px;  
+  left: 9.65vw;
+}
+.line-2 {
+  position: absolute;
+  bottom: 63px;
+  width: 177px;
+  left: 9.65vw;
+}
+.top-line-arrow::before {
+  position: absolute;
+  width: 3vw;
+  height: 4px;
+  content: '';
+  background-color: white;
+  right: -3vw;
+  top: 120px;
+}
+.bottom-line-arrow::before {
+  position: absolute;
+  width: 3vw;
+  height: 4px;
+  content: '';
+  background-color: white;
+  right: -3vw;
+  bottom: 63px;
+}
+.top-line-left-arrow::after {
+  position: absolute;
+  width: 4vw;
+  height: 4px;
+  content: '';
+  background-color: white;
+  left: -4vw;
+  top: 120px;
+
+}
+.bottom-line-left-arrow::after {
+  position: absolute;
+  width: 4vw;
+  height: 4px;
+  content: '';
+  background-color: white;
+  left: -4vw;
+  bottom: 63px;
+}
+@media screen and (max-width: 991px) {
+  .top-line-left-arrow::after, 
+  .bottom-line-left-arrow::after, 
+  .bottom-line-arrow::before,
+  .top-line-arrow::before,
+  .line-1, .line-2,
+  .waf::after, .waf::before {
+    display: none;
+  }
+}

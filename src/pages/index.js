@@ -8,6 +8,7 @@ import Services from "../components/Services";
 import Footer from "../components/Footer";
 import RoadmapPhase from "../components/Roadmap";
 import FaqSection from 'components/FaqSection'
+import TeamSection from 'components/TeamSection'
 
 const Home = () => {
 
@@ -25,6 +26,7 @@ const Home = () => {
 			<InfoSection {...homeObjOne} />
 			<RoadmapPhase />
 			<Services />
+			<TeamSection />
 			<FaqSection />
 			<Footer />
 		</>
