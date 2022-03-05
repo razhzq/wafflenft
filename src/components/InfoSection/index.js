@@ -7,7 +7,8 @@ import {
 	TopLine,
 	Heading,
 	Subtitle,
-	BtnWrap	
+	BtnWrap,
+	Img	
 } from './InfoElements'
 
 import { Button } from '../ButtonElement';
@@ -38,7 +39,7 @@ const InfoSection = (props) => {
 			<InfoWrapper>
 				<InfoRow imgStart={imgStart}>
 					<Column2>
-						<img src={img} alt={alt} width='100%' />
+						<Img src={img} alt={alt} width='100%'  />
 					</Column2>
 					<Column1>
 						<TopLine>{topLine}</TopLine>

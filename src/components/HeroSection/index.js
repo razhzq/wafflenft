@@ -20,7 +20,7 @@ import {
 import Video from '../../images/hero-bg.png'
 import { Button } from '../ButtonElement'
 
-import HeroImg from 'images/hero.png'
+import HeroImg from 'images/waffleani.gif'
 import Instagram from 'images/instagram.png'
 import Twitter from 'images/twitter.png'
 import Discord from 'images/discord.png'
@@ -69,7 +69,7 @@ const HeroSection = () => {
 					</HeroBtnWrapper>
 				</LeftContents>
 				<HeroImage>
-					<Image src={HeroImg} width='100%' alt='hero' />
+					<Image src={HeroImg} width='90%' alt='hero' />
 				</HeroImage>
 			</HeroContent>
 			<SocialLinks>

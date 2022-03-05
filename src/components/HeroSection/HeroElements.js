@@ -124,6 +124,7 @@ export const HeroImage = styled.div`
 	width: 35%;
 	padding-left: 20px;
 	padding-right: 20px;
+	
 	@media screen and (max-width: 991px) {
 		width: 100%;
 	}
@@ -152,6 +153,7 @@ export const HeroH3 = styled.h3`
 `
 export const Image = styled.img`
 	filter: drop-shadow(0px 14px 54px rgba(0, 0, 0, 0.15));
+	border-radius: 35px;
 `
 export const NFTText = styled.span`
 	-webkit-text-stroke:2px #140634;
