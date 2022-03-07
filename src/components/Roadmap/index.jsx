@@ -16,6 +16,8 @@ import WaffleImg from 'images/roadmap-waffle.png'
 import Waffle2 from 'images/waffle2.png'
 import Waffle4 from 'images/waffle4.png'
 
+import { BsCheck2Circle } from 'react-icons/bs'
+
 import './styles.css'
 
 const RoadmapPhase = () => {
@@ -30,12 +32,12 @@ const RoadmapPhase = () => {
               Phase #1
             </Title>
             <Description>
-              - Upon reaching 3000 discord members, a date will be set for both Presale & Main Launch
-              -500 NFTs will be allocated to Presale(the funds accumulated from the presale will help push the
-              community marketing towards our main launch)<br />
-              -250 NFTs will be allocated to Giveaways & Contests <br />
-              -The remaining 4,250 Waffle NFTS will be release to public mint.<br />
-              - Daily raffle deployment upon closing of public sale
+              - Socials Open{" "}< BsCheck2Circle /><br />
+              - Marketing Implementation{" "}< BsCheck2Circle /><br />
+              - Website Upgrade 2.0{" "}< BsCheck2Circle /> <br />
+              - Whitelist Presale<br />
+              - Marketing Push<br />
+              - Public Launch
             </Description>
             <img src={Line1} alt="Line" className='road-line-1' />
             <img src={WaffleImg} alt="Waffle" className='phase-1-waffle' />
@@ -48,10 +50,14 @@ const RoadmapPhase = () => {
               Phase #2
             </Title>
             <Description>
-              - Applications for secondary markets will be placed.
-              Members can trade numbers, accumulate more waffle tickets or simply collect different designs
-              - Our website will be fully updated to bring the latest and best tools to bring ease to our community and holders
-              - Weekly Raffle NFTs will be created and put up for public sale
+              - Daily Raffle Implementation<br />
+              - Waffle Token Construction<br />
+              - NFT Staking Launch<br />
+              - Website 3.0 Upgrade<br />
+              - Winners Circle Club Opening<br />
+              - Waffle Casino Planning
+              
+
             </Description>
             <img src={Line2} alt="Line" className='road-line-2' />
             <img src={WaffleImg} alt="Waffle" className='phase-2-waffle' />
@@ -64,9 +70,14 @@ const RoadmapPhase = () => {
               Phase #3
             </Title>
             <Description>
-              Community voting will commence for WaffleCasino games
-              - WaffleNFT Merchandise Shop will be open on our website
-              - Monthly Raffle NFTs will be created and put up for public sale
+              - Weekly Raffle Implementation<br />
+              - Airdrops to Gen1 Holders<br />
+              - Royalties Jackpot Commence<br />
+              - Merchandise Shop Opens<br />
+              - Good Cause Donations<br />
+              - Community Voting <br />
+              - Waffle Casino Construction Begins   
+
             </Description>
             <img src={Line3} alt="Line" className='road-line-3' />
             <img src={Waffle2} alt="Waffle" className='phase-3-waffle' />
@@ -79,8 +90,9 @@ const RoadmapPhase = () => {
               Phase #4
             </Title>
             <Description>
-              - WaffleCasino Launch<br />
-              - Roadmap 2023 Update
+              - Monthly Raffle Implementation<br />
+              - Airdrops to Gen1 Holders<br />
+              - Waffle Casino Launch
             </Description>
             <img src={Line4} alt="Line" className='road-line-4' />
             <img src={Waffle4} alt="Waffle" className='phase-4-waffle' />

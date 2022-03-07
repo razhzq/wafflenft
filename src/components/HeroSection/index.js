@@ -73,14 +73,14 @@ const HeroSection = () => {
 				</HeroImage>
 			</HeroContent>
 			<SocialLinks>
-				<a href='/'>
-					<SocialImg src={Instagram} alt='Instagram' />
+				<a>
+					<SocialImg onClick={() => window.location.href = "https://instagram.com/wafflenft?utm_medium=copy_link"} src={Instagram} alt='Instagram' />
 				</a>
-				<a href='/'>
-					<SocialImg src={Twitter} alt='Twitter' />
+				<a>
+					<SocialImg onClick={() => window.location.href = "https://twitter.com/WaffleNft"} src={Twitter} alt='Twitter' />
 				</a>
-				<a href='/'>
-					<SocialImg src={Discord} alt='Discord' />
+				<a>
+					<SocialImg onClick={() => window.location.href = "https://discord.gg/96QBSE4j59"} src={Discord} alt='Discord' />
 				</a>
 			</SocialLinks>
 			<AttachIcon src={Attach} alt='Attach' />

@@ -26,7 +26,7 @@ const Footer = () => {
 					<img src={Logo} alt='Waffle NFT' width='100%' />
 				</SocialLogo>
 				<SocialIcons>
-					<SocialIconLink href="" target="_blank" aria-label="Instagram">
+					<SocialIconLink href="https://instagram.com/wafflenft?utm_medium=copy_link" target="_blank" aria-label="Instagram">
 						<AiFillInstagram />
 					</SocialIconLink>
 					<SocialIconLink href="https://twitter.com/WaffleNft" target="_blank" aria-label="Twitter">
