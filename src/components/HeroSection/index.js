@@ -43,7 +43,7 @@ const HeroSection = () => {
 				<LeftContents>
 					<HeroH3>WaffleNFT</HeroH3>
 					<HeroH1>
-						Revolutionising
+						Revolutionising<br class="mobile-break" />
 						<NFTText>NFTs</NFTText>
 					</HeroH1>				
 					<HeroP>

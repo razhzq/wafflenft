@@ -159,10 +159,7 @@ export const NFTText = styled.span`
 	-webkit-text-stroke:2px #140634;
   -webkit-text-fill-color:transparent;
 	margin-left: 8px;
-	@media screen and (max-width: 768px) {
-		font-size: 24px;
-		line-height: 30px;
-	}
+	
 `
 export const SocialImg = styled.img`
 	opacity: 0.5
@@ -193,3 +190,5 @@ export const AttachIcon = styled.img`
 		bottom: 20px;
 	}
 `
+
+

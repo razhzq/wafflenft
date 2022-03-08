@@ -4,3 +4,7 @@
   padding: 0;
   font-family: 'Encode Sans Expanded', sans-serif;
 }
+
+@media screen and (min-width: 600px) {
+  .mobile-break {display: none;}
+}

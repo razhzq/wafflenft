@@ -8,7 +8,7 @@ export const homeObjOne = {
     description: 'Our Waffle NFTs will be assigned a number between 1 - 5,000 within the NFTs Metadata. EVERY day after minting has closed we will host a raffle! Once the winning Waffle ID has been chosen and the holders address has been identified the winnings will be automatically sent. No need to be online to claim! Take a look at our Roadmap / Marketing Strategies & Socials here  ',
     buttonLabel: 'Join our Discord',
     imgStart: false,
-    img: require('../../images/nftex.png').default,
+    img: require('../../images/wafflepreview.gif').default,
     alt: 'Car',
     dark: true,
     primary: true,
