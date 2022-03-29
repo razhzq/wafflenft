@@ -49,7 +49,7 @@ const HeroSection = () => {
 					<HeroP>
 						Community will always be at our heart here at WaffleNFT.
 						Our main goal is and always has been bringing REAL utility to our holders.
-						Head on to our whitelist competition and grab your seats.
+						Join our discord for a chance to gain FREE MINTS!
 					</HeroP>
 					<HeroBtnWrapper>
 						<Button to="signup" 
@@ -62,9 +62,9 @@ const HeroSection = () => {
 							spy={true}
 							exact='true'
 							offset={-80}
-							onClick={() => window.location.href = "https://gleam.io/Ltgua/wafflenft-whitelist-competition"}
+							onClick={() => window.location.href = "https://discord.gg/96QBSE4j59"}
 						>
-							Go to Whitelist
+							Join Discord
 						</Button>
 					</HeroBtnWrapper>
 				</LeftContents>
